@@ -1,0 +1,106 @@
+/* Custom Styles */
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url('images/trans1.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white; 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Enhancing the Welcome Header */
+header {
+    background-color: rgba(0,0,0,0.5); /* Adding a slight dark overlay to increase readability */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-size: 1.1rem; /* Making nav links larger */
+    font-weight: bold;
+}
+
+/* Styling Main Content */
+.main-content {
+    padding: 20px;
+    background-color: goldenrod; /* Dark background with some transparency */
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+/* Enhancing Footer */
+footer {
+    background-color: rgba(0,0,0,0.2); /* Slightly transparent dark footer */
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+/* Custom Button Styles */
+.btn-custom {
+    background-color: #ff80ab; /* Example pink color */
+    color: white;
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.5s ease;
+}
+
+.btn-custom:hover {
+    background-color: #ff6090; /* Darker shade of pink on hover */
+    color: white;
+}
+
+/* Responsive Text Size for Headings */
+@media (max-width: 768px) {
+    h1.display-4 {
+        font-size: 2.5rem; /* Smaller font size for mobile */
+    }
+}
+
+/* Custom Card Styles */
+.card-custom {
+    background-color: rgba(255, 255, 255, 0.8); /* Light background with some transparency */
+    color: black; /* Dark text for readability */
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: #ff80ab; /* Matching the button color */
+    color: white;
+    font-size: 1.25rem;
+}
+
+/* Adjusting navbar for better mobile view */
+@media (max-width: 992px) {
+    .navbar-nav {
+        margin-top: 20px;
+    }
+    .navbar-toggler {
+        filter: invert(1); /* Make the toggle button white */
+    }
+}
+
+
+/* Footer Enhancements */
+footer {
+    width: 100%;
+    background-color: rgba(0,0,0,0.6); /* More pronounced dark background for readability */
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-email {
+    color: #ff80ab; /* Use a bright or contrasting color for visibility */
+    text-decoration: none; /* Removes underline */
+}
+
+.footer-email:hover {
+    color: #ff6090; /* Darker shade on hover for interaction feedback */
+}
+
+
+main {
+    flex: 1;
+}

@@ -1,0 +1,50 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+  }
+  
+  header {
+    background-color: #6c63ff;
+    color: #ffffff;
+    padding: 3rem 0;
+    border-bottom: 3px solid #4d47d5;
+  }
+  
+  .job-sites li {
+    list-style-type: none;
+    margin-bottom: 1rem;
+  }
+  
+  .job-sites a {
+    text-decoration: none;
+    color: #6c63ff;
+    font-weight: bold;
+  }
+  
+  .job-sites a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  /* Media queries for mobile devices and small screens */
+  @media (max-width: 767px) {
+    header {
+      padding: 2rem 0;
+    }
+  
+    .display-4 {
+      font-size: 2rem;
+    }
+  
+    .card-header h2 {
+      font-size: 1.25rem;
+    }
+  }

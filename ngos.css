@@ -1,0 +1,76 @@
+/* Styles for NGO Cards */
+.ngo {
+    background-color: pink; /* Light Red */
+    color: #2d3436; /* Dark Gray */
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Bootstrap classes for styling */
+.ngo:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px); /* Move card up slightly on hover */
+}
+
+.ngo h2 {
+    margin-top: 0;
+    font-size: 24px; /* Larger heading size */
+}
+
+.ngo p {
+    margin-bottom: 10px;
+    font-size: 18px; /* Larger paragraph size */
+}
+
+.ngo a {
+    color: #6c5ce7; /* Purple */
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.ngo a:hover {
+    color: #d63031; /* Red */
+    text-decoration: none;
+}
+
+/* Symbol styling */
+.symbol {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+/* Additional creative styling */
+@media screen and (min-width: 768px) {
+    .ngo {
+        padding: 30px; /* Increase padding for larger screens */
+    }
+
+    .ngo:hover {
+        transform: translateY(-10px); /* Bigger movement on hover */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Adjustments for normal average mobile devices */
+    .ngo {
+        border-radius: 15px; /* Smaller border radius */
+        padding: 15px; /* Reduce padding for smaller screens */
+        margin-bottom: 30px;
+    }
+
+    .ngo h2 {
+        font-size: 20px; /* Smaller heading size */
+    }
+
+    .ngo p {
+        font-size: 16px; /* Smaller paragraph size */
+    }
+}
+
+.h1{
+    position: center;
+}

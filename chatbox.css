@@ -1,0 +1,91 @@
+/* Base Chatbox Styles */
+.chat-container {
+    min-width: 300px;
+    height: auto;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #fff0f5;
+    border: 1px solid #ffced6;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+/* Chat Header */
+.card-header {
+    background-color: #ffe4e9;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 15px;
+    border-bottom: 1px solid #ffced6;
+}
+
+/* Chat Messages Container */
+.card-body {
+    background-color: #fff0f5;
+    max-height: 300px;
+    overflow-y: auto;
+    padding: 15px;
+}
+
+/* Individual Messages */
+.chat-message {
+    padding: 8px 12px;
+    border-radius: 20px;
+    margin-bottom: 8px;
+    max-width: 75%;
+}
+
+/* User Messages */
+.user-message {
+    background-color: #ffced6;
+    color: #333;
+    text-align: right;
+}
+
+/* Bot Messages */
+.bot-message {
+    background-color: #ff85a2;
+    color: white;
+    text-align: left;
+}
+
+/* Adjustments for Mobile Devices */
+@media (max-width: 480px) {
+    .chat-container {
+        width: 95%;
+        max-width: none;
+        bottom: 10px;
+        right: 10px;
+    }
+}
+
+.hug {
+    background-image: url('images/hug.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #ffcccc;
+    background-position: center top;
+    position: relative;
+    z-index: -1;
+    top: 50px;
+}
+
+/* Input and Button Customizations */
+.card-footer input {
+    flex: 1;
+    border-radius: 20px;
+    border: 1px solid #ffced6;
+}
+
+.btn-close-white {
+    filter: invert(1) grayscale(100%) brightness(200%);
+}
+
+.btn-pink {
+    background-color: #ff85a2;
+    border-color: #ff85a2;
+    color: white;
+}

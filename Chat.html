@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health - Trans Care</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="chatbox.css">
+</head>
+<body class="hug">
+    <main>
+        <section class="content" style="color:white">
+            <h2>Any problem share with us</h2>
+        </section>
+
+        <div class="chat-container">
+            <div class="card-header text-white bg-pink">
+                Chat
+                <button type="button" class="btn-close btn-close-white" aria-label="Close"></button>
+            </div>
+            <div class="card-body chat-messages overflow-auto">
+                <!-- Chat messages will be dynamically added here -->
+            </div>
+            <div class="card-footer">
+                <input type="text" id="user-msg" class="form-control" placeholder="Type your message here...">
+                <button type="button" class="btn btn-pink" id="send-btn">Send</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="chatbox.js"></script>
+</body>
+</html>
